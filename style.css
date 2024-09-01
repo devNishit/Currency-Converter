@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.fullApp{
+    background-color: #004B23;
+    height: 70vh;
+    width: 300px;
+    margin-top: 100px;
+    font-size: 17px;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    
+    color: #CCFF33;
+    width:100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.entAmt{
+    margin: 5px;
+    display: flex;
+    gap:2px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.entAmt input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #CCFF33;
+}
+.bothContry{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.slect1{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.slect1 select{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: none;
+    
+}
+
+.slect2{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.bothContry i{
+    font-size: 30px;
+    color: #9EF01A;
+}
+
+.slect2 select{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: none;
+    
+}
+.imgSelect2{
+    display: flex;
+ align-items: center;
+  justify-content: center;
+gap: 5px;
+padding: 5px;
+background-color: #CCFF33;
+border-radius: 5px;
+}
+
+.imgSelect1{
+    display: flex;
+ align-items: center;
+  justify-content: center;
+gap: 5px;
+padding: 5px;
+background-color: #CCFF33;
+border-radius: 5px;
+}
+
+.btn{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn button{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #CCFF33;
+    color: #006400;
+    border: none;
+}
+
+.msgResult{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: #CCFF33;
+}
+
+img{
+    height: 25px;
+    
+}

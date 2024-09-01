@@ -1,0 +1,1 @@
+This web app converts any currency amount to any other currency amount using an API.
